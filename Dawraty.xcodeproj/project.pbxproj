@@ -3,10 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5008D5D821072EAE004A8620 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008D5D721072EAE004A8620 /* MainCollectionViewCell.swift */; };
+		5008D5DA21073337004A8620 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008D5D921073337004A8620 /* CoursesViewController.swift */; };
+		5008D5DC2107339B004A8620 /* MyCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008D5DB2107339B004A8620 /* MyCoursesViewController.swift */; };
+		5008D5DE21073583004A8620 /* problemAndSolving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008D5DD21073583004A8620 /* problemAndSolving.swift */; };
+		5008D5E021073685004A8620 /* AdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5008D5DF21073685004A8620 /* AdsTableViewCell.swift */; };
+		502268252108839A004E56AC /* CourseTabsResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502268242108839A004E56AC /* CourseTabsResp.swift */; };
+		50226827210883C8004E56AC /* GetCourseTabsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226826210883C8004E56AC /* GetCourseTabsApi.swift */; };
+		5022682A210898A4004E56AC /* SuccessResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226829210898A4004E56AC /* SuccessResp.swift */; };
+		5022682D210898E4004E56AC /* RegisterCourseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022682C210898E4004E56AC /* RegisterCourseApi.swift */; };
+		502268302108A3B9004E56AC /* AdsResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022682F2108A3B9004E56AC /* AdsResp.swift */; };
+		502268322108A40A004E56AC /* GetAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502268312108A40A004E56AC /* GetAds.swift */; };
+		502268352108AA27004E56AC /* CourseDetailsResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502268342108AA27004E56AC /* CourseDetailsResp.swift */; };
+		502268372108AA8D004E56AC /* CourseDetailsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502268362108AA8D004E56AC /* CourseDetailsApi.swift */; };
+		5022683A2108C3DD004E56AC /* GetPagesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502268392108C3DD004E56AC /* GetPagesApi.swift */; };
+		5022683C2108C3EC004E56AC /* GetPagesResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5022683B2108C3EC004E56AC /* GetPagesResp.swift */; };
+		502605B321199933003EF580 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502605B221199933003EF580 /* SideMenuTableViewCell.swift */; };
+		502605B52119CADA003EF580 /* MainCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502605B42119CADA003EF580 /* MainCategoryTableViewCell.swift */; };
+		50311F51211B12CE004BCD50 /* ChooseCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50311F50211B12CE004BCD50 /* ChooseCountriesViewController.swift */; };
+		50311F53211B14D5004BCD50 /* ChooseCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50311F52211B14D5004BCD50 /* ChooseCountryTableViewCell.swift */; };
 		50510B10210074DB005C1C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50510B0F210074DB005C1C00 /* AppDelegate.swift */; };
 		50510B12210074DB005C1C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50510B11210074DB005C1C00 /* ViewController.swift */; };
 		50510B15210074DB005C1C00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50510B13210074DB005C1C00 /* Main.storyboard */; };
@@ -14,6 +33,49 @@
 		50510B1A210074DC005C1C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50510B18210074DC005C1C00 /* LaunchScreen.storyboard */; };
 		50510B25210074DD005C1C00 /* DawratyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50510B24210074DD005C1C00 /* DawratyTests.swift */; };
 		50510B30210074DD005C1C00 /* DawratyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50510B2F210074DD005C1C00 /* DawratyUITests.swift */; };
+		5051B9A921085B9300632000 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051B9A821085B9300632000 /* LoginResponse.swift */; };
+		5051B9AB21085C0800632000 /* LoginApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051B9AA21085C0800632000 /* LoginApiService.swift */; };
+		5051B9B02108611400632000 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051B9AF2108611400632000 /* Constants.swift */; };
+		5051B9B321086F3000632000 /* SubCategoryResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051B9B221086F3000632000 /* SubCategoryResp.swift */; };
+		5051B9B521086F6A00632000 /* SubCategoryApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5051B9B421086F6A00632000 /* SubCategoryApi.swift */; };
+		50646744210718B400D373E4 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50646743210718B400D373E4 /* CustomCellTableViewCell.swift */; };
+		5064674621071B7700D373E4 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064674521071B7700D373E4 /* FavouriteViewController.swift */; };
+		5064674821071D7000D373E4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064674721071D7000D373E4 /* SearchViewController.swift */; };
+		5068357B211ADB82005B73FB /* DeleteFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068357A211ADB82005B73FB /* DeleteFavorite.swift */; };
+		5068357D211AE130005B73FB /* AbstractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068357C211AE130005B73FB /* AbstractViewController.swift */; };
+		5069123421075B0E00093830 /* CoursesFromTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069123321075B0E00093830 /* CoursesFromTabsViewController.swift */; };
+		5069123621075F3500093830 /* CourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5069123521075F3500093830 /* CourseDetailsViewController.swift */; };
+		50AC450E2105C6A400555F24 /* SubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC450D2105C6A400555F24 /* SubCategoryView.swift */; };
+		50AC45102105D57500555F24 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC450F2105D57500555F24 /* SideMenuVC.swift */; };
+		50AC45142105E16600555F24 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC45132105E16600555F24 /* ContainerViewController.swift */; };
+		50BBE4372119825700D315B2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50BBE4392119825700D315B2 /* Localizable.strings */; };
+		50BBE43C211982CF00D315B2 /* L012Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BBE43B211982CF00D315B2 /* L012Localizer.swift */; };
+		50BBE43E211983D100D315B2 /* ChangeLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BBE43D211983D100D315B2 /* ChangeLanguageViewController.swift */; };
+		50C64A612109CA8200C4700C /* InnerCourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C64A602109CA8200C4700C /* InnerCourseList.swift */; };
+		50C64A642109CE2F00C4700C /* TechnicalSupportApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C64A632109CE2F00C4700C /* TechnicalSupportApi.swift */; };
+		50C6F2082104913B0041E5AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F2072104913B0041E5AE /* LoginViewController.swift */; };
+		50C6F20A2104914F0041E5AE /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F2092104914F0041E5AE /* RegistrationViewController.swift */; };
+		50C6F20C2104917A0041E5AE /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F20B2104917A0041E5AE /* IntroductionViewController.swift */; };
+		50C6F20E210491980041E5AE /* TecSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F20D210491980041E5AE /* TecSupportViewController.swift */; };
+		50C6F210210491A30041E5AE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F20F210491A30041E5AE /* AboutUsViewController.swift */; };
+		50C6F212210491B10041E5AE /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F211210491B10041E5AE /* TermsViewController.swift */; };
+		50C6F2142104A2DC0041E5AE /* MainCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F2132104A2DC0041E5AE /* MainCategoryView.swift */; };
+		50C6F2162104BB2B0041E5AE /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F2152104BB2B0041E5AE /* NetworkConnection.swift */; };
+		50C6F2182104D44F0041E5AE /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F2172104D44F0041E5AE /* AdsViewController.swift */; };
+		50E9ABF92109AF3F00C1EB62 /* MyCoursesResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9ABF82109AF3F00C1EB62 /* MyCoursesResp.swift */; };
+		50E9ABFB2109AF4900C1EB62 /* MyCoursesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9ABFA2109AF4900C1EB62 /* MyCoursesApi.swift */; };
+		50E9ABFE2109B4CE00C1EB62 /* RegisterationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9ABFD2109B4CE00C1EB62 /* RegisterationApi.swift */; };
+		50E9AC012109C0C700C1EB62 /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9AC002109C0C700C1EB62 /* SearchApi.swift */; };
+		50E9AC032109C0D600C1EB62 /* SearchResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9AC022109C0D600C1EB62 /* SearchResp.swift */; };
+		59F600FE0312E485C02E2B72 /* Pods_Dawraty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3C5A9302BC0E3A3C63771 /* Pods_Dawraty.framework */; };
+		77F7A380213C86290080F92B /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A37D213C86280080F92B /* Cairo-Bold.ttf */; };
+		77F7A381213C86290080F92B /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A37E213C86290080F92B /* Cairo-Light.ttf */; };
+		77F7A382213C86290080F92B /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A37F213C86290080F92B /* Cairo-Regular.ttf */; };
+		77F7A386213C877B0080F92B /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A383213C876C0080F92B /* Cairo-SemiBold.ttf */; };
+		77F7A387213C877B0080F92B /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A384213C87700080F92B /* Cairo-Black.ttf */; };
+		77F7A388213C877B0080F92B /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F7A385213C87740080F92B /* Cairo-ExtraLight.ttf */; };
+		BAB8C5EA2C6950278495348A /* Pods_DawratyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE30A003A7A86FB00F339DDA /* Pods_DawratyTests.framework */; };
+		E2CCC82B4FC79991F3030818 /* Pods_DawratyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34876EB3115085F1B697023 /* Pods_DawratyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +96,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A06076FDFE943353BF4017 /* Pods-Dawraty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawraty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dawraty/Pods-Dawraty.debug.xcconfig"; sourceTree = "<group>"; };
+		242DF4A25454CB17C638B18E /* Pods-DawratyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawratyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DawratyUITests/Pods-DawratyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3457CEE227FAEA9345BE2029 /* Pods-DawratyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawratyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DawratyUITests/Pods-DawratyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		397505EBEFF86C87FEDE0AC1 /* Pods-Dawraty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawraty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dawraty/Pods-Dawraty.release.xcconfig"; sourceTree = "<group>"; };
+		5008D5D721072EAE004A8620 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		5008D5D921073337004A8620 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		5008D5DB2107339B004A8620 /* MyCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesViewController.swift; sourceTree = "<group>"; };
+		5008D5DD21073583004A8620 /* problemAndSolving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = problemAndSolving.swift; sourceTree = "<group>"; };
+		5008D5DF21073685004A8620 /* AdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableViewCell.swift; sourceTree = "<group>"; };
+		502268242108839A004E56AC /* CourseTabsResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTabsResp.swift; sourceTree = "<group>"; };
+		50226826210883C8004E56AC /* GetCourseTabsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCourseTabsApi.swift; sourceTree = "<group>"; };
+		50226829210898A4004E56AC /* SuccessResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessResp.swift; sourceTree = "<group>"; };
+		5022682C210898E4004E56AC /* RegisterCourseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCourseApi.swift; sourceTree = "<group>"; };
+		5022682F2108A3B9004E56AC /* AdsResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsResp.swift; sourceTree = "<group>"; };
+		502268312108A40A004E56AC /* GetAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAds.swift; sourceTree = "<group>"; };
+		502268342108AA27004E56AC /* CourseDetailsResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsResp.swift; sourceTree = "<group>"; };
+		502268362108AA8D004E56AC /* CourseDetailsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailsApi.swift; sourceTree = "<group>"; };
+		502268392108C3DD004E56AC /* GetPagesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPagesApi.swift; sourceTree = "<group>"; };
+		5022683B2108C3EC004E56AC /* GetPagesResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPagesResp.swift; sourceTree = "<group>"; };
+		502605B221199933003EF580 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		502605B42119CADA003EF580 /* MainCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		50311F50211B12CE004BCD50 /* ChooseCountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCountriesViewController.swift; sourceTree = "<group>"; };
+		50311F52211B14D5004BCD50 /* ChooseCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCountryTableViewCell.swift; sourceTree = "<group>"; };
 		50510B0C210074DB005C1C00 /* Dawraty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawraty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50510B0F210074DB005C1C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50510B11210074DB005C1C00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +132,54 @@
 		50510B2B210074DD005C1C00 /* DawratyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawratyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50510B2F210074DD005C1C00 /* DawratyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawratyUITests.swift; sourceTree = "<group>"; };
 		50510B31210074DD005C1C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5051B9A821085B9300632000 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		5051B9AA21085C0800632000 /* LoginApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApiService.swift; sourceTree = "<group>"; };
+		5051B9AF2108611400632000 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5051B9B221086F3000632000 /* SubCategoryResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryResp.swift; sourceTree = "<group>"; };
+		5051B9B421086F6A00632000 /* SubCategoryApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryApi.swift; sourceTree = "<group>"; };
+		50646743210718B400D373E4 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		5064674521071B7700D373E4 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		5064674721071D7000D373E4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5068357A211ADB82005B73FB /* DeleteFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFavorite.swift; sourceTree = "<group>"; };
+		5068357C211AE130005B73FB /* AbstractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractViewController.swift; sourceTree = "<group>"; };
+		5069123321075B0E00093830 /* CoursesFromTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesFromTabsViewController.swift; sourceTree = "<group>"; };
+		5069123521075F3500093830 /* CourseDetailsViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewController.swift; sourceTree = "<group>"; };
+		50AC450D2105C6A400555F24 /* SubCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryView.swift; sourceTree = "<group>"; };
+		50AC450F2105D57500555F24 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		50AC45132105E16600555F24 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		50BBE432211981CB00D315B2 /* ar-KW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-KW"; path = "ar-KW.lproj/Main.strings"; sourceTree = "<group>"; };
+		50BBE433211981CC00D315B2 /* ar-KW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-KW"; path = "ar-KW.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		50BBE4382119825700D315B2 /* ar-KW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-KW"; path = "ar-KW.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		50BBE43A2119825F00D315B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50BBE43B211982CF00D315B2 /* L012Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L012Localizer.swift; sourceTree = "<group>"; };
+		50BBE43D211983D100D315B2 /* ChangeLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguageViewController.swift; sourceTree = "<group>"; };
+		50C64A602109CA8200C4700C /* InnerCourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCourseList.swift; sourceTree = "<group>"; };
+		50C64A632109CE2F00C4700C /* TechnicalSupportApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalSupportApi.swift; sourceTree = "<group>"; };
+		50C6F2072104913B0041E5AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50C6F2092104914F0041E5AE /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		50C6F20B2104917A0041E5AE /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		50C6F20D210491980041E5AE /* TecSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TecSupportViewController.swift; sourceTree = "<group>"; };
+		50C6F20F210491A30041E5AE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		50C6F211210491B10041E5AE /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		50C6F2132104A2DC0041E5AE /* MainCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCategoryView.swift; sourceTree = "<group>"; };
+		50C6F2152104BB2B0041E5AE /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		50C6F2172104D44F0041E5AE /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		50E9ABF82109AF3F00C1EB62 /* MyCoursesResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesResp.swift; sourceTree = "<group>"; };
+		50E9ABFA2109AF4900C1EB62 /* MyCoursesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesApi.swift; sourceTree = "<group>"; };
+		50E9ABFD2109B4CE00C1EB62 /* RegisterationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationApi.swift; sourceTree = "<group>"; };
+		50E9AC002109C0C700C1EB62 /* SearchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApi.swift; sourceTree = "<group>"; };
+		50E9AC022109C0D600C1EB62 /* SearchResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResp.swift; sourceTree = "<group>"; };
+		77F7A37D213C86280080F92B /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		77F7A37E213C86290080F92B /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		77F7A37F213C86290080F92B /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		77F7A383213C876C0080F92B /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		77F7A384213C87700080F92B /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		77F7A385213C87740080F92B /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		95E8726B2675F7914BB5B10E /* Pods-DawratyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawratyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DawratyTests/Pods-DawratyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4E3C5A9302BC0E3A3C63771 /* Pods_Dawraty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dawraty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE30A003A7A86FB00F339DDA /* Pods_DawratyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawratyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F71C46B62B325FCB673434 /* Pods-DawratyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawratyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DawratyTests/Pods-DawratyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34876EB3115085F1B697023 /* Pods_DawratyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawratyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F600FE0312E485C02E2B72 /* Pods_Dawraty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB8C5EA2C6950278495348A /* Pods_DawratyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +203,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CCC82B4FC79991F3030818 /* Pods_DawratyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EAB71BE44FFE236D938B8C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4E3C5A9302BC0E3A3C63771 /* Pods_Dawraty.framework */,
+				BE30A003A7A86FB00F339DDA /* Pods_DawratyTests.framework */,
+				F34876EB3115085F1B697023 /* Pods_DawratyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5022682321088384004E56AC /* CourseTabs */ = {
+			isa = PBXGroup;
+			children = (
+				502268242108839A004E56AC /* CourseTabsResp.swift */,
+				50226826210883C8004E56AC /* GetCourseTabsApi.swift */,
+				50C64A602109CA8200C4700C /* InnerCourseList.swift */,
+			);
+			path = CourseTabs;
+			sourceTree = "<group>";
+		};
+		502268282108988C004E56AC /* SuccessResp */ = {
+			isa = PBXGroup;
+			children = (
+				50226829210898A4004E56AC /* SuccessResp.swift */,
+			);
+			path = SuccessResp;
+			sourceTree = "<group>";
+		};
+		5022682B210898CC004E56AC /* RegisterCourseApi */ = {
+			isa = PBXGroup;
+			children = (
+				5022682C210898E4004E56AC /* RegisterCourseApi.swift */,
+			);
+			path = RegisterCourseApi;
+			sourceTree = "<group>";
+		};
+		5022682E2108A3A9004E56AC /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				5022682F2108A3B9004E56AC /* AdsResp.swift */,
+				502268312108A40A004E56AC /* GetAds.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		502268332108AA14004E56AC /* CourseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				502268342108AA27004E56AC /* CourseDetailsResp.swift */,
+				502268362108AA8D004E56AC /* CourseDetailsApi.swift */,
+			);
+			path = CourseDetails;
+			sourceTree = "<group>";
+		};
+		502268382108C3CE004E56AC /* GetPages */ = {
+			isa = PBXGroup;
+			children = (
+				502268392108C3DD004E56AC /* GetPagesApi.swift */,
+				5022683B2108C3EC004E56AC /* GetPagesResp.swift */,
+			);
+			path = GetPages;
+			sourceTree = "<group>";
+		};
 		50510B03210074DB005C1C00 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +280,8 @@
 				50510B23210074DD005C1C00 /* DawratyTests */,
 				50510B2E210074DD005C1C00 /* DawratyUITests */,
 				50510B0D210074DB005C1C00 /* Products */,
+				BC0E82A769AEE8EE28A97F84 /* Pods */,
+				1EAB71BE44FFE236D938B8C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +298,44 @@
 		50510B0E210074DB005C1C00 /* Dawraty */ = {
 			isa = PBXGroup;
 			children = (
+				77F7A37C213C86010080F92B /* Resources */,
+				50BBE434211981D400D315B2 /* Localization */,
+				5051B9AE210860EC00632000 /* Constants */,
+				5051B9AC2108607800632000 /* APIS */,
 				50510B0F210074DB005C1C00 /* AppDelegate.swift */,
 				50510B11210074DB005C1C00 /* ViewController.swift */,
+				50AC45132105E16600555F24 /* ContainerViewController.swift */,
 				50510B13210074DB005C1C00 /* Main.storyboard */,
+				5069123521075F3500093830 /* CourseDetailsViewController.swift */,
+				5069123321075B0E00093830 /* CoursesFromTabsViewController.swift */,
+				50C6F2172104D44F0041E5AE /* AdsViewController.swift */,
+				5008D5DF21073685004A8620 /* AdsTableViewCell.swift */,
+				5008D5DD21073583004A8620 /* problemAndSolving.swift */,
+				5008D5DB2107339B004A8620 /* MyCoursesViewController.swift */,
+				5008D5D921073337004A8620 /* CoursesViewController.swift */,
+				5064674721071D7000D373E4 /* SearchViewController.swift */,
+				5064674521071B7700D373E4 /* FavouriteViewController.swift */,
+				50646743210718B400D373E4 /* CustomCellTableViewCell.swift */,
+				50AC450F2105D57500555F24 /* SideMenuVC.swift */,
+				50AC450D2105C6A400555F24 /* SubCategoryView.swift */,
+				5008D5D721072EAE004A8620 /* MainCollectionViewCell.swift */,
+				50C6F2132104A2DC0041E5AE /* MainCategoryView.swift */,
+				50C6F20D210491980041E5AE /* TecSupportViewController.swift */,
+				50C6F20F210491A30041E5AE /* AboutUsViewController.swift */,
+				50C6F211210491B10041E5AE /* TermsViewController.swift */,
+				50C6F20B2104917A0041E5AE /* IntroductionViewController.swift */,
+				50C6F2072104913B0041E5AE /* LoginViewController.swift */,
+				50C6F2152104BB2B0041E5AE /* NetworkConnection.swift */,
+				50C6F2092104914F0041E5AE /* RegistrationViewController.swift */,
 				50510B16210074DC005C1C00 /* Assets.xcassets */,
 				50510B18210074DC005C1C00 /* LaunchScreen.storyboard */,
 				50510B1B210074DC005C1C00 /* Info.plist */,
+				50BBE43D211983D100D315B2 /* ChangeLanguageViewController.swift */,
+				502605B221199933003EF580 /* SideMenuTableViewCell.swift */,
+				502605B42119CADA003EF580 /* MainCategoryTableViewCell.swift */,
+				5068357C211AE130005B73FB /* AbstractViewController.swift */,
+				50311F50211B12CE004BCD50 /* ChooseCountriesViewController.swift */,
+				50311F52211B14D5004BCD50 /* ChooseCountryTableViewCell.swift */,
 			);
 			path = Dawraty;
 			sourceTree = "<group>";
@@ -125,6 +358,129 @@
 			path = DawratyUITests;
 			sourceTree = "<group>";
 		};
+		5051B9AC2108607800632000 /* APIS */ = {
+			isa = PBXGroup;
+			children = (
+				50683579211ADB72005B73FB /* DeleteFavs */,
+				50C64A622109CD7900C4700C /* TechnicalSupport */,
+				50E9ABFF2109C0B700C1EB62 /* SearchCourses */,
+				50E9ABFC2109B4BC00C1EB62 /* Reegisteration */,
+				50E9ABF72109AF2E00C1EB62 /* MyCourses */,
+				502268382108C3CE004E56AC /* GetPages */,
+				502268332108AA14004E56AC /* CourseDetails */,
+				502268282108988C004E56AC /* SuccessResp */,
+				5022682E2108A3A9004E56AC /* Ads */,
+				5022682B210898CC004E56AC /* RegisterCourseApi */,
+				5022682321088384004E56AC /* CourseTabs */,
+				5051B9B121086C4600632000 /* SubCategories */,
+				5051B9AD2108608C00632000 /* Login */,
+			);
+			path = APIS;
+			sourceTree = "<group>";
+		};
+		5051B9AD2108608C00632000 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5051B9AA21085C0800632000 /* LoginApiService.swift */,
+				5051B9A821085B9300632000 /* LoginResponse.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5051B9AE210860EC00632000 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5051B9AF2108611400632000 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5051B9B121086C4600632000 /* SubCategories */ = {
+			isa = PBXGroup;
+			children = (
+				5051B9B221086F3000632000 /* SubCategoryResp.swift */,
+				5051B9B421086F6A00632000 /* SubCategoryApi.swift */,
+			);
+			path = SubCategories;
+			sourceTree = "<group>";
+		};
+		50683579211ADB72005B73FB /* DeleteFavs */ = {
+			isa = PBXGroup;
+			children = (
+				5068357A211ADB82005B73FB /* DeleteFavorite.swift */,
+			);
+			path = DeleteFavs;
+			sourceTree = "<group>";
+		};
+		50BBE434211981D400D315B2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				50BBE4392119825700D315B2 /* Localizable.strings */,
+				50BBE43B211982CF00D315B2 /* L012Localizer.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		50C64A622109CD7900C4700C /* TechnicalSupport */ = {
+			isa = PBXGroup;
+			children = (
+				50C64A632109CE2F00C4700C /* TechnicalSupportApi.swift */,
+			);
+			path = TechnicalSupport;
+			sourceTree = "<group>";
+		};
+		50E9ABF72109AF2E00C1EB62 /* MyCourses */ = {
+			isa = PBXGroup;
+			children = (
+				50E9ABF82109AF3F00C1EB62 /* MyCoursesResp.swift */,
+				50E9ABFA2109AF4900C1EB62 /* MyCoursesApi.swift */,
+			);
+			path = MyCourses;
+			sourceTree = "<group>";
+		};
+		50E9ABFC2109B4BC00C1EB62 /* Reegisteration */ = {
+			isa = PBXGroup;
+			children = (
+				50E9ABFD2109B4CE00C1EB62 /* RegisterationApi.swift */,
+			);
+			path = Reegisteration;
+			sourceTree = "<group>";
+		};
+		50E9ABFF2109C0B700C1EB62 /* SearchCourses */ = {
+			isa = PBXGroup;
+			children = (
+				50E9AC002109C0C700C1EB62 /* SearchApi.swift */,
+				50E9AC022109C0D600C1EB62 /* SearchResp.swift */,
+			);
+			path = SearchCourses;
+			sourceTree = "<group>";
+		};
+		77F7A37C213C86010080F92B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77F7A37D213C86280080F92B /* Cairo-Bold.ttf */,
+				77F7A37E213C86290080F92B /* Cairo-Light.ttf */,
+				77F7A384213C87700080F92B /* Cairo-Black.ttf */,
+				77F7A385213C87740080F92B /* Cairo-ExtraLight.ttf */,
+				77F7A383213C876C0080F92B /* Cairo-SemiBold.ttf */,
+				77F7A37F213C86290080F92B /* Cairo-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC0E82A769AEE8EE28A97F84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A06076FDFE943353BF4017 /* Pods-Dawraty.debug.xcconfig */,
+				397505EBEFF86C87FEDE0AC1 /* Pods-Dawraty.release.xcconfig */,
+				C2F71C46B62B325FCB673434 /* Pods-DawratyTests.debug.xcconfig */,
+				95E8726B2675F7914BB5B10E /* Pods-DawratyTests.release.xcconfig */,
+				242DF4A25454CB17C638B18E /* Pods-DawratyUITests.debug.xcconfig */,
+				3457CEE227FAEA9345BE2029 /* Pods-DawratyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +488,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50510B34210074DD005C1C00 /* Build configuration list for PBXNativeTarget "Dawraty" */;
 			buildPhases = (
+				766FD04F72C1E4511D13B8FF /* [CP] Check Pods Manifest.lock */,
 				50510B08210074DB005C1C00 /* Sources */,
 				50510B09210074DB005C1C00 /* Frameworks */,
 				50510B0A210074DB005C1C00 /* Resources */,
+				1C5E47ADD0B774DF8298CE43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +507,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50510B37210074DD005C1C00 /* Build configuration list for PBXNativeTarget "DawratyTests" */;
 			buildPhases = (
+				B57ECACFA773753BCB467B6F /* [CP] Check Pods Manifest.lock */,
 				50510B1C210074DD005C1C00 /* Sources */,
 				50510B1D210074DD005C1C00 /* Frameworks */,
 				50510B1E210074DD005C1C00 /* Resources */,
@@ -167,6 +526,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50510B3A210074DD005C1C00 /* Build configuration list for PBXNativeTarget "DawratyUITests" */;
 			buildPhases = (
+				50A28F3D5ACFDABD16CD5EE6 /* [CP] Check Pods Manifest.lock */,
 				50510B27210074DD005C1C00 /* Sources */,
 				50510B28210074DD005C1C00 /* Frameworks */,
 				50510B29210074DD005C1C00 /* Resources */,
@@ -193,19 +553,22 @@
 				TargetAttributes = {
 					50510B0B210074DB005C1C00 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 					50510B1F210074DD005C1C00 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 50510B0B210074DB005C1C00;
 					};
 					50510B2A210074DD005C1C00 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 50510B0B210074DB005C1C00;
 					};
 				};
 			};
 			buildConfigurationList = 50510B07210074DB005C1C00 /* Build configuration list for PBXProject "Dawraty" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -229,8 +592,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F7A386213C877B0080F92B /* Cairo-SemiBold.ttf in Resources */,
+				77F7A388213C877B0080F92B /* Cairo-ExtraLight.ttf in Resources */,
 				50510B1A210074DC005C1C00 /* LaunchScreen.storyboard in Resources */,
+				77F7A382213C86290080F92B /* Cairo-Regular.ttf in Resources */,
+				77F7A380213C86290080F92B /* Cairo-Bold.ttf in Resources */,
+				50BBE4372119825700D315B2 /* Localizable.strings in Resources */,
 				50510B17210074DC005C1C00 /* Assets.xcassets in Resources */,
+				77F7A381213C86290080F92B /* Cairo-Light.ttf in Resources */,
+				77F7A387213C877B0080F92B /* Cairo-Black.ttf in Resources */,
 				50510B15210074DB005C1C00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +621,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5E47ADD0B774DF8298CE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dawraty/Pods-Dawraty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dawraty/Pods-Dawraty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A28F3D5ACFDABD16CD5EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DawratyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766FD04F72C1E4511D13B8FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dawraty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57ECACFA773753BCB467B6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DawratyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50510B08210074DB005C1C00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C6F2082104913B0041E5AE /* LoginViewController.swift in Sources */,
+				50AC450E2105C6A400555F24 /* SubCategoryView.swift in Sources */,
+				5022683A2108C3DD004E56AC /* GetPagesApi.swift in Sources */,
+				5064674621071B7700D373E4 /* FavouriteViewController.swift in Sources */,
+				50E9ABFB2109AF4900C1EB62 /* MyCoursesApi.swift in Sources */,
+				5051B9B521086F6A00632000 /* SubCategoryApi.swift in Sources */,
+				50AC45102105D57500555F24 /* SideMenuVC.swift in Sources */,
+				50C6F20C2104917A0041E5AE /* IntroductionViewController.swift in Sources */,
+				502268302108A3B9004E56AC /* AdsResp.swift in Sources */,
+				50C6F2182104D44F0041E5AE /* AdsViewController.swift in Sources */,
+				5069123621075F3500093830 /* CourseDetailsViewController.swift in Sources */,
+				50E9ABF92109AF3F00C1EB62 /* MyCoursesResp.swift in Sources */,
+				5022682D210898E4004E56AC /* RegisterCourseApi.swift in Sources */,
+				5068357B211ADB82005B73FB /* DeleteFavorite.swift in Sources */,
+				502268372108AA8D004E56AC /* CourseDetailsApi.swift in Sources */,
+				50BBE43E211983D100D315B2 /* ChangeLanguageViewController.swift in Sources */,
+				50311F51211B12CE004BCD50 /* ChooseCountriesViewController.swift in Sources */,
+				50646744210718B400D373E4 /* CustomCellTableViewCell.swift in Sources */,
+				502268322108A40A004E56AC /* GetAds.swift in Sources */,
+				5008D5DE21073583004A8620 /* problemAndSolving.swift in Sources */,
+				502268252108839A004E56AC /* CourseTabsResp.swift in Sources */,
+				50C6F2162104BB2B0041E5AE /* NetworkConnection.swift in Sources */,
+				5008D5DA21073337004A8620 /* CoursesViewController.swift in Sources */,
+				50226827210883C8004E56AC /* GetCourseTabsApi.swift in Sources */,
+				5008D5DC2107339B004A8620 /* MyCoursesViewController.swift in Sources */,
+				5051B9AB21085C0800632000 /* LoginApiService.swift in Sources */,
+				50311F53211B14D5004BCD50 /* ChooseCountryTableViewCell.swift in Sources */,
+				502605B52119CADA003EF580 /* MainCategoryTableViewCell.swift in Sources */,
+				50AC45142105E16600555F24 /* ContainerViewController.swift in Sources */,
+				50C64A612109CA8200C4700C /* InnerCourseList.swift in Sources */,
 				50510B12210074DB005C1C00 /* ViewController.swift in Sources */,
+				50C64A642109CE2F00C4700C /* TechnicalSupportApi.swift in Sources */,
+				5051B9A921085B9300632000 /* LoginResponse.swift in Sources */,
+				50BBE43C211982CF00D315B2 /* L012Localizer.swift in Sources */,
+				5008D5D821072EAE004A8620 /* MainCollectionViewCell.swift in Sources */,
+				5008D5E021073685004A8620 /* AdsTableViewCell.swift in Sources */,
+				5068357D211AE130005B73FB /* AbstractViewController.swift in Sources */,
+				50C6F20A2104914F0041E5AE /* RegistrationViewController.swift in Sources */,
+				5064674821071D7000D373E4 /* SearchViewController.swift in Sources */,
+				50C6F210210491A30041E5AE /* AboutUsViewController.swift in Sources */,
+				50E9ABFE2109B4CE00C1EB62 /* RegisterationApi.swift in Sources */,
+				5022683C2108C3EC004E56AC /* GetPagesResp.swift in Sources */,
+				5069123421075B0E00093830 /* CoursesFromTabsViewController.swift in Sources */,
 				50510B10210074DB005C1C00 /* AppDelegate.swift in Sources */,
+				502605B321199933003EF580 /* SideMenuTableViewCell.swift in Sources */,
+				50E9AC032109C0D600C1EB62 /* SearchResp.swift in Sources */,
+				50C6F212210491B10041E5AE /* TermsViewController.swift in Sources */,
+				50C6F20E210491980041E5AE /* TecSupportViewController.swift in Sources */,
+				502268352108AA27004E56AC /* CourseDetailsResp.swift in Sources */,
+				50C6F2142104A2DC0041E5AE /* MainCategoryView.swift in Sources */,
+				50E9AC012109C0C700C1EB62 /* SearchApi.swift in Sources */,
+				5051B9B321086F3000632000 /* SubCategoryResp.swift in Sources */,
+				5051B9B02108611400632000 /* Constants.swift in Sources */,
+				5022682A210898A4004E56AC /* SuccessResp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +812,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				50510B14210074DB005C1C00 /* Base */,
+				50BBE432211981CB00D315B2 /* ar-KW */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,8 +821,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				50510B19210074DC005C1C00 /* Base */,
+				50BBE433211981CC00D315B2 /* ar-KW */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50BBE4392119825700D315B2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BBE4382119825700D315B2 /* ar-KW */,
+				50BBE43A2119825F00D315B2 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,6 +842,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -428,15 +956,15 @@
 		};
 		50510B35210074DD005C1C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A06076FDFE943353BF4017 /* Pods-Dawraty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3ZWRB85B;
 				INFOPLIST_FILE = Dawraty/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.Dawraty;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourcecode.Dawraty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,15 +973,15 @@
 		};
 		50510B36210074DD005C1C00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397505EBEFF86C87FEDE0AC1 /* Pods-Dawraty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3ZWRB85B;
 				INFOPLIST_FILE = Dawraty/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.Dawraty;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourcecode.Dawraty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,16 +990,13 @@
 		};
 		50510B38210074DD005C1C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F71C46B62B325FCB673434 /* Pods-DawratyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DawratyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.DawratyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +1007,13 @@
 		};
 		50510B39210074DD005C1C00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E8726B2675F7914BB5B10E /* Pods-DawratyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DawratyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.DawratyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +1024,12 @@
 		};
 		50510B3B210074DD005C1C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242DF4A25454CB17C638B18E /* Pods-DawratyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DawratyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.DawratyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +1040,12 @@
 		};
 		50510B3C210074DD005C1C00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3457CEE227FAEA9345BE2029 /* Pods-DawratyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DawratyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SourceCode.DawratyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

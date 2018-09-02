@@ -10,6 +10,10 @@ import UIKit
 
 class CustomCellTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var photo: UIImageView!
+    @IBOutlet weak var courseName: UILabel!
+    
+    @IBOutlet weak var deleteBtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -1,7 +1,114 @@
-/* 
-  Localizable.strings
-  Dawraty
+/*
+ Localizable.strings
+ Eventat
+ 
+ Created by MAC2 on 7/23/18.
+ Copyright © 2018 SourceCode. All rights reserved.
+ */
+welcome = "Welcome";
+mainCategory = "Main Category";
+loginToAccount = "Login to your account";
+emailLabel = "Email";
+passwordLabel =  "Password";
+loginBtn = "Login";
+registerBtn =  "Register";
+forgotPassword = "Forgot Password?";
+registerNewAccount = "Register new account";
+nameText = "Name";
+conatctNumber = "Contact number";
+address = "Address" ;
+mainTab = "Main";
+editInfo = "Update Info";
+cart = "Cart" ;
+lastOrders = "Last Orders" ;
+menu ="Menu";
+updateInfoBtn = "Update";
+logout = "Logout";
+language = "Language";
+aboutUs = "About Us";
+favorites = "Favorites";
+terms = "Terms of usage";
+support = "Technical Support" ;
+faq = "Help";
+courses = "Courses";
+myCourses = "My Courses";
+ads = "Ads";
+yesString = "Yes";
+noString = "No";
+doYouWantToChangeLAng = "Do you want to change language?";
+arabic = "Arabic";
+english = "English";
+changeTo = "Change to ";
+changeBtn = "Change";
+whatIsProblem = "What is the problem?";
+conatctUs = "Contact us:";
+forMoreInfo = "For more information contact us through:";
+emailUs = "Or emial us:";
+writeProb = "Write problem..";
+okayString = "Okay";
+pleaseFillRequired = "Please fill required";
+wrongData = "The user name or password is incorrect";
+pleaseWait = "Please wait";
+wantToLogout = "Do you want to logout?";
+sendEmail = "Type email to change password!";
+send = "Send";
+cancel = "Cancel";
+passwordCahngesSuccess = "Password changed succesffully!";
+validEmail = "Please write valid Email!";
+successfullyRegistered = "You've registered successfully!";
+searchCourse = "Search for a course";
+noDataAvailable = "Sorry, no data available!";
+orderNum = "Order Id:";
+addToFavs = "Add to favories";
+confirmLog = "Confirm";
+addToCart ="Add to cart";
+quantity = "Quantity";
+dateDel = "Delivery Date";
+timeDel = "Delivery Time";
+comments = "Comments";
+finalCost = "Final cost" ;
+receiptAddress = "Receipt address";
+deliveryAddress = "Delivery address";
+sameAddressLogin = "Same Delievery address";
+agreeToTerms = "I agree to terms and conditions";
+skip = "Skip";
+enterCourseName =  "Please enter course name!";
+joinNow = "Join now";
+courseName = "Course name" ;
+lecture = "Lecturer name";
+time = "Time";
+startDate = "Start date";
+endDate = "End date";
+status = "Satatus";
+fees = "Fees";
+details = "Details";
+howToAddCourse = "How to add Course?";
+howToAddAds = "How to add Ads?";
+problemAndSolving = "Problems & Solving";
+successLogin = "Successfully login!";
+reportLabel = "Report";
+sendReport = "Send Report";
+noCoursesAvailable = "No Courses available!";
+subCategory = "Sub Category";
+loginFirst = "Please login first";
+questionSent = "Question sent";
+addToFavsSuccess = "Added to favories";
+dept1 = "Associated Authorities ";
+dept2 = "Private Institutions";
+dept3 =  "Ministry of Kuwait";
+dept4 = "External Courses" ;
+dept5 = "Other" ;
+loginFB = "Login with Facebook";
+deleteFavs = "Delete favorite?";
+successfullyDeleted = "Successfully deleted!";
+loggedOutSuccess = "you've logged out successfully!";
+countries = "Countries";
+ksa = "Saudi Arabia";
+bahrain = "Bahrain";
+kuwait = "Kuwait";
+tunisia = "Tunisia";
+algeria = "Algeria";
+chooseCountry = "Choose country";
+somethingWrong= "Something went wrong, please retry!";
+loggedInFB = "You've looged in with Facebbok, please proceed with skip to continue with the application!";
 
-  Created by SourceCode on 8/7/18.
-  Copyright © 2018 SourceCode. All rights reserved.
-*/

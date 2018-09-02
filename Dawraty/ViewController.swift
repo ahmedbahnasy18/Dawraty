@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ContainerVC: UIViewController {
+class ViewController: UIViewController {
 
-    @IBOutlet weak var sideMenuConstraint: NSLayoutConstraint!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

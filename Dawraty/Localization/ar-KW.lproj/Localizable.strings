@@ -1,7 +1,113 @@
-/* 
-  Localizable.strings
-  Dawraty
-
-  Created by SourceCode on 8/7/18.
-  Copyright © 2018 SourceCode. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Eventat
+ 
+ Created by MAC2 on 7/23/18.
+ Copyright © 2018 SourceCode. All rights reserved.
+ */
+welcome = "مرحبا";
+mainCategory = "الاقسام الرئيسية";
+loginToAccount = "التسجيل في حسابك";
+emailLabel = "البريد الالكتروني";
+passwordLabel = "الرقم السري" ;
+loginBtn =  "تسجيل دخول";
+registerBtn = "تسجيل" ;
+forgotPassword = "هل نسيت كلمة المرور؟";
+registerNewAccount = "تسجيل حساب جديد" ;
+nameText = "الاسم";
+conatctNumber = "رقم التواصل";
+address = "العنوان";
+mainTab = "الرئيسية";
+editInfo = "تعديل البيانات";
+cart = "السلة" ;
+lastOrders = "الطلبات الاخيرة" ;
+menu = "القائمة";
+updateInfoBtn = "تعديل ";
+logout = "تسجيل الخروج";
+language = "اللغة";
+aboutUs = "عنا";
+favorites = "المفضلة";
+terms = "شروط الاستخدام";
+support = "الدعم الفني";
+faq = "الاستفسارات";
+courses = "برامج";
+myCourses = "البرنامج المسجل";
+ads = "الاعلانات";
+yesString = "نعم";
+noString = "لا";
+doYouWantToChangeLAng = "هل تريد تغيير اللغة؟";
+arabic =  "العربية";
+english = "الانجليزية";
+changeTo = "غير الي ";
+changeBtn = "غير";
+whatIsProblem = "ما هي المشكلة؟";
+conatctUs = "تواصل معنا";
+forMoreInfo = "لمزيد من المعلومات تواصل معنا من خلال";
+emailUs = "او عن طريق الايميل";
+writeProb = "...اكتب المشكلة";
+okayString =  "نعم";
+pleaseFillRequired = "من فضلك املا الحقول الاجبارية؟";
+wrongData = "البيانات غير صحيحة";
+pleaseWait = "من فضلك انتظر";
+wantToLogout = "هل تريد الخروج";
+sendEmail = "اكتب الاميل لتغيير كلمة المرور";
+send = "ارسل";
+cancel = "الغاء";
+passwordCahngesSuccess = "تم تغيير كلمة السر بنجاح";
+validEmail = "من فضلك اكتب ايميل صحيح";
+successfullyRegistered = "تم التسجيل بنجاح!";
+searchCourse = "ابحث عن دورة";
+noDataAvailable = "لا يوجد بيانات";
+orderNum = "رقم الطلب";
+addToFavs = "اضافة الي المفضلة؟";
+confirmLog = "تأكيد";
+addToCart = "اضف الي السلة";
+quantity = "الكمية";
+dateDel = "تاريخ التوصيل";
+timeDel = "وقت التوصيل";
+comments = "التعليقات";
+finalCost = "التكلفة النهائية";
+receiptAddress = "عنوان الفاتورة";
+deliveryAddress = "عنوان الشحن";
+sameAddressLogin = "نفس عنوان الشحن";
+agreeToTerms = "اوافق علي شروط الاستخدام";
+skip = "تخطي";
+enterCourseName = "ادخل اسم الكورس";
+joinNow = "سجل الان";
+courseName = "اسم الكورس" ;
+lecture = "اسم المحاضر";
+time = "الوقت";
+startDate = "تاريخ البدء";
+endDate = "تاريخ الانتهاء";
+status = "الحالة";
+fees = "التكاليف";
+details = "التفاصيل";
+howToAddCourse = "كيفيية إضافة كورس؟";
+howToAddAds = "كيفية إضافة اعلانات؟";
+problemAndSolving = "الاستفسارات و الحلول";
+successLogin = "تم الدخول بنجاح";
+reportLabel = "اقتراح";
+sendReport = "ارسل اقتراح";
+noCoursesAvailable = "لا يوجد كورسات";
+subCategory = "الفئة الفرعية";
+loginFirst = "من فضلك قم بتسجيل الدخول اولا";
+questionSent = "تم ارسال السؤال";
+addToFavsSuccess = "تم الاضافة الي المفضلة";
+dept1 = "الهيئات الملحقة";
+dept2 = "المؤسسات المستقلة";
+dept3 = "وزارات الكويت";
+dept4 = "دورات خارجية" ;
+dept5 = "جهات اخري" ;
+loginFB = "الدخول بالفاسبوك";
+deleteFavs = "مسح المفضلة؟";
+successfullyDeleted = "تم المسح بنجاح";
+loggedOutSuccess = "تم تسجيل الخروج ";
+countries = "البلاد";
+ksa = "المملكة العربية السعودية";
+bahrain = "البحرين‎";
+kuwait = "الكويت";
+tunisia = "تونس";
+algeria = "لجزائر";
+chooseCountry = "اختار دولة";
+somethingWrong= "حدث خطأ، من فضلك حاول مرة اخري";
+loggedInFB = "لقد قمت بتسجيل الدخول باستخدام Facebook ، يرجى متابعة التخطي لمتابعة التطبيق!";

@@ -1,0 +1,6 @@
+framework module Pods_DawratyTests {
+  umbrella header "Pods-DawratyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

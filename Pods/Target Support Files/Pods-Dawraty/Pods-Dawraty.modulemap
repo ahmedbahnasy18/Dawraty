@@ -1,0 +1,6 @@
+framework module Pods_Dawraty {
+  umbrella header "Pods-Dawraty-umbrella.h"
+
+  export *
+  module * { export * }
+}

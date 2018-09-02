@@ -7,20 +7,35 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class TermsViewController: UIViewController {
-
+var pageResposns : [GetPagesResp]?
+    
+    @IBOutlet weak var termsText: UITextView!
+    
+    let hud = JGProgressHUD(style: .dark)
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hud.textLabel.text =  NSLocalizedString("pleaseWait", comment: "")
         // Do any additional setup after loading the view.
+         self.title =  NSLocalizedString("terms", comment: "")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        for pages in self.pageResposns!{
+            
+            if(pages.pageId == 2){
+                self.termsText.text = pages.pageContantEn
+                
+            }
+            
+        }
+    }
 
     /*
     // MARK: - Navigation

@@ -10,6 +10,8 @@ import UIKit
 
 class ChooseCountryTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var countryName: UILabel!
+    @IBOutlet weak var countryImg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

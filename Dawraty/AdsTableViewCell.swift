@@ -10,6 +10,11 @@ import UIKit
 
 class AdsTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var photo: UIImageView!
+    @IBOutlet weak var courseName: UILabel!
+    @IBOutlet weak var joinBtn: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +25,11 @@ class AdsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    @IBAction func JoinBtnAction(_ sender: Any) {
+        
+    }
+    
 
 }
