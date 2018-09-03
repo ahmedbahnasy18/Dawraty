@@ -942,7 +942,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxO-pe-zP6">
-                                                <rect key="frame" x="8" y="18" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -953,7 +953,7 @@
                                             <constraint firstAttribute="height" constant="67" id="2jo-Jh-6E3"/>
                                             <constraint firstItem="IxO-pe-zP6" firstAttribute="leading" secondItem="5M6-a2-ORG" secondAttribute="leading" id="4mw-qJ-gZI"/>
                                             <constraint firstItem="5M6-a2-ORG" firstAttribute="leading" secondItem="cfs-cx-XAF" secondAttribute="leading" constant="8" id="Cha-3k-Dbk"/>
-                                            <constraint firstItem="IxO-pe-zP6" firstAttribute="top" secondItem="5M6-a2-ORG" secondAttribute="bottom" constant="10" id="CpV-9j-VBj"/>
+                                            <constraint firstItem="IxO-pe-zP6" firstAttribute="top" secondItem="5M6-a2-ORG" secondAttribute="bottom" constant="4" id="CpV-9j-VBj"/>
                                             <constraint firstItem="5M6-a2-ORG" firstAttribute="top" secondItem="cfs-cx-XAF" secondAttribute="top" constant="8" id="LRw-RR-NEM"/>
                                             <constraint firstItem="IxO-pe-zP6" firstAttribute="trailing" secondItem="5M6-a2-ORG" secondAttribute="trailing" id="bWF-ok-wK8"/>
                                             <constraint firstAttribute="trailing" secondItem="5M6-a2-ORG" secondAttribute="trailing" constant="8" id="s1W-Qw-wpr"/>
@@ -963,7 +963,7 @@
                                         <rect key="frame" x="8" y="83" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lecturer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwG-Bt-Y5L">
-                                                <rect key="frame" x="8" y="18" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -979,7 +979,7 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="BYi-ik-jWo" secondAttribute="trailing" constant="8" id="03Q-FS-qXf"/>
                                             <constraint firstItem="BYi-ik-jWo" firstAttribute="leading" secondItem="Ii7-jK-Tmg" secondAttribute="leading" constant="8" id="EiX-F1-MSy"/>
-                                            <constraint firstItem="AwG-Bt-Y5L" firstAttribute="top" secondItem="BYi-ik-jWo" secondAttribute="bottom" constant="10" id="KOl-7y-YD4"/>
+                                            <constraint firstItem="AwG-Bt-Y5L" firstAttribute="top" secondItem="BYi-ik-jWo" secondAttribute="bottom" constant="4" id="KOl-7y-YD4"/>
                                             <constraint firstItem="AwG-Bt-Y5L" firstAttribute="trailing" secondItem="BYi-ik-jWo" secondAttribute="trailing" id="WZo-Vr-xsQ"/>
                                             <constraint firstAttribute="height" constant="67" id="a1D-DZ-mFy"/>
                                             <constraint firstItem="BYi-ik-jWo" firstAttribute="top" secondItem="Ii7-jK-Tmg" secondAttribute="top" constant="8" id="gZy-UB-ghu"/>
@@ -990,7 +990,7 @@
                                         <rect key="frame" x="8" y="158" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZ3-T2-lmp">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1009,7 +1009,7 @@
                                             <constraint firstItem="ZSn-5k-Xz1" firstAttribute="leading" secondItem="j9P-H5-Jd6" secondAttribute="leading" constant="8" id="Fvq-yC-g1V"/>
                                             <constraint firstAttribute="trailing" secondItem="ZSn-5k-Xz1" secondAttribute="trailing" constant="8" id="TBo-qi-YWj"/>
                                             <constraint firstItem="ZSn-5k-Xz1" firstAttribute="top" secondItem="j9P-H5-Jd6" secondAttribute="top" constant="8" id="aOo-Lm-wMj"/>
-                                            <constraint firstItem="uZ3-T2-lmp" firstAttribute="top" secondItem="ZSn-5k-Xz1" secondAttribute="bottom" constant="8" id="c3E-cE-sf9"/>
+                                            <constraint firstItem="uZ3-T2-lmp" firstAttribute="top" secondItem="ZSn-5k-Xz1" secondAttribute="bottom" constant="4" id="c3E-cE-sf9"/>
                                             <constraint firstAttribute="height" constant="67" id="uKE-Ze-57U"/>
                                         </constraints>
                                     </view>
@@ -1017,7 +1017,7 @@
                                         <rect key="frame" x="8" y="233" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="start date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03g-NV-769">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1034,7 +1034,7 @@
                                             <constraint firstItem="1PE-yq-9Sa" firstAttribute="top" secondItem="6us-j2-jqu" secondAttribute="top" constant="8" id="94a-gf-cVG"/>
                                             <constraint firstAttribute="trailing" secondItem="1PE-yq-9Sa" secondAttribute="trailing" constant="8" id="I6L-Kc-hdc"/>
                                             <constraint firstItem="03g-NV-769" firstAttribute="leading" secondItem="1PE-yq-9Sa" secondAttribute="leading" id="SzB-Us-LW1"/>
-                                            <constraint firstItem="03g-NV-769" firstAttribute="top" secondItem="1PE-yq-9Sa" secondAttribute="bottom" constant="8" id="UTA-u7-lQm"/>
+                                            <constraint firstItem="03g-NV-769" firstAttribute="top" secondItem="1PE-yq-9Sa" secondAttribute="bottom" constant="4" id="UTA-u7-lQm"/>
                                             <constraint firstItem="1PE-yq-9Sa" firstAttribute="leading" secondItem="6us-j2-jqu" secondAttribute="leading" constant="8" id="i4C-q5-gkD"/>
                                             <constraint firstAttribute="height" constant="67" id="pkv-5K-WpN"/>
                                             <constraint firstItem="03g-NV-769" firstAttribute="trailing" secondItem="1PE-yq-9Sa" secondAttribute="trailing" id="rjt-LJ-X4J"/>
@@ -1044,7 +1044,7 @@
                                         <rect key="frame" x="8" y="308" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="end date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAB-fn-5t1">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1062,7 +1062,7 @@
                                             <constraint firstItem="WKD-pR-hea" firstAttribute="leading" secondItem="oG0-uG-2fI" secondAttribute="leading" constant="8" id="Hha-8m-mZB"/>
                                             <constraint firstItem="TAB-fn-5t1" firstAttribute="trailing" secondItem="WKD-pR-hea" secondAttribute="trailing" id="PSY-ee-sJv"/>
                                             <constraint firstAttribute="trailing" secondItem="WKD-pR-hea" secondAttribute="trailing" constant="8" id="PeL-xq-q39"/>
-                                            <constraint firstItem="TAB-fn-5t1" firstAttribute="top" secondItem="WKD-pR-hea" secondAttribute="bottom" constant="8" id="cul-6u-MJn"/>
+                                            <constraint firstItem="TAB-fn-5t1" firstAttribute="top" secondItem="WKD-pR-hea" secondAttribute="bottom" constant="4" id="cul-6u-MJn"/>
                                             <constraint firstAttribute="height" constant="67" id="vSM-lZ-K0U"/>
                                             <constraint firstItem="WKD-pR-hea" firstAttribute="top" secondItem="oG0-uG-2fI" secondAttribute="top" constant="8" id="xGD-6h-HU6"/>
                                         </constraints>
@@ -1071,7 +1071,7 @@
                                         <rect key="frame" x="8" y="383" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi3-z3-XxV">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1088,7 +1088,7 @@
                                             <constraint firstAttribute="trailing" secondItem="G9E-33-7Jz" secondAttribute="trailing" constant="8" id="BAW-ZH-3PP"/>
                                             <constraint firstItem="G9E-33-7Jz" firstAttribute="leading" secondItem="cAj-P5-NW2" secondAttribute="leading" constant="8" id="FFS-Ro-WUo"/>
                                             <constraint firstItem="G9E-33-7Jz" firstAttribute="top" secondItem="cAj-P5-NW2" secondAttribute="top" constant="8" id="IGP-Gs-EF6"/>
-                                            <constraint firstItem="bi3-z3-XxV" firstAttribute="top" secondItem="G9E-33-7Jz" secondAttribute="bottom" constant="8" id="N8v-Uq-ef8"/>
+                                            <constraint firstItem="bi3-z3-XxV" firstAttribute="top" secondItem="G9E-33-7Jz" secondAttribute="bottom" constant="4" id="N8v-Uq-ef8"/>
                                             <constraint firstAttribute="height" constant="67" id="OtV-BU-tyW"/>
                                             <constraint firstItem="bi3-z3-XxV" firstAttribute="leading" secondItem="G9E-33-7Jz" secondAttribute="leading" id="jiA-ZR-GCZ"/>
                                             <constraint firstItem="bi3-z3-XxV" firstAttribute="trailing" secondItem="G9E-33-7Jz" secondAttribute="trailing" id="xTm-oU-crN"/>
@@ -1098,7 +1098,7 @@
                                         <rect key="frame" x="8" y="458" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fees" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8t-ph-8rE">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1117,7 +1117,7 @@
                                             <constraint firstItem="u8t-ph-8rE" firstAttribute="trailing" secondItem="7fK-aQ-3Ce" secondAttribute="trailing" id="QG9-ke-NW3"/>
                                             <constraint firstAttribute="trailing" secondItem="7fK-aQ-3Ce" secondAttribute="trailing" constant="8" id="Rut-or-6UW"/>
                                             <constraint firstAttribute="height" constant="67" id="ZBY-r1-upl"/>
-                                            <constraint firstItem="u8t-ph-8rE" firstAttribute="top" secondItem="7fK-aQ-3Ce" secondAttribute="bottom" constant="8" id="hrv-zU-zJo"/>
+                                            <constraint firstItem="u8t-ph-8rE" firstAttribute="top" secondItem="7fK-aQ-3Ce" secondAttribute="bottom" constant="4" id="hrv-zU-zJo"/>
                                             <constraint firstItem="7fK-aQ-3Ce" firstAttribute="top" secondItem="m9t-rT-EzF" secondAttribute="top" constant="8" id="mUn-9V-tAe"/>
                                         </constraints>
                                     </view>
@@ -1125,7 +1125,7 @@
                                         <rect key="frame" x="8" y="533" width="359" height="67"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="details" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgz-W1-C5B">
-                                                <rect key="frame" x="8" y="16" width="343" height="28.5"/>
+                                                <rect key="frame" x="8" y="12" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1144,7 +1144,7 @@
                                             <constraint firstItem="xgz-W1-C5B" firstAttribute="leading" secondItem="ytR-hK-JJo" secondAttribute="leading" id="bcL-fO-nUJ"/>
                                             <constraint firstAttribute="height" constant="67" id="bxL-w9-i9U"/>
                                             <constraint firstAttribute="trailing" secondItem="ytR-hK-JJo" secondAttribute="trailing" constant="8" id="ec2-OQ-uob"/>
-                                            <constraint firstItem="xgz-W1-C5B" firstAttribute="top" secondItem="ytR-hK-JJo" secondAttribute="bottom" constant="8" id="iAu-Bi-PHe"/>
+                                            <constraint firstItem="xgz-W1-C5B" firstAttribute="top" secondItem="ytR-hK-JJo" secondAttribute="bottom" constant="4" id="iAu-Bi-PHe"/>
                                             <constraint firstItem="ytR-hK-JJo" firstAttribute="top" secondItem="yql-hu-FpG" secondAttribute="top" constant="8" id="rp6-EJ-uNq"/>
                                         </constraints>
                                     </view>

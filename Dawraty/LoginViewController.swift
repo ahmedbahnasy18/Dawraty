@@ -52,7 +52,15 @@ class LoginViewController: UIViewController {
                 userDefaults.set(encodedData, forKey: "logResp")
                 userDefaults.synchronize()
                 
-                self.createAlert(title: NSLocalizedString("successLogin", comment: ""))
+                //self.createAlert(title: NSLocalizedString("successLogin", comment: ""))
+                
+                let alert = UIAlertController(title: NSLocalizedString("successLogin", comment: ""), message: "", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: NSLocalizedString("yesString", comment: ""), style: .cancel) { (action) in
+                    let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainCategoryView") as! MainCategoryView
+                    self.navigationController?.pushViewController(vc, animated: true)
+                }
+                alert.addAction(okAction)
+                self.present(alert, animated: true, completion: nil)
                 
             }else{
                 self.createAlert(title: NSLocalizedString("wrongData", comment: ""))
